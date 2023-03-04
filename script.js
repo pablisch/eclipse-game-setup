@@ -34,19 +34,19 @@ if (players.length == 5) {
   console.log(randomNumber)
   switch(randomNumber) {
     case 1:
-      document.querySelector(".image").src="images/playTableFiveV5.png";
+      document.querySelector(".image").src="images/playTableFiveV1b.png";
       break;
     case 2:
-      document.querySelector(".image").src="images/playTableFiveV2.png";
+      document.querySelector(".image").src="images/playTableFiveV2b.png";
       break;
     case 3:
-      document.querySelector(".image").src="images/playTableFiveV3.png";
+      document.querySelector(".image").src="images/playTableFiveV3b.png";
       break;
     case 4:
-      document.querySelector(".image").src="images/playTableFiveV4.png";
+      document.querySelector(".image").src="images/playTableFiveV4b.png";
       break;
     case 5:
-      document.querySelector(".image").src="images/playTableFiveV5.png";
+      document.querySelector(".image").src="images/playTableFiveV5b.png";
       break;
     default:
       document.querySelector(".image").src="images/playTable.png";
