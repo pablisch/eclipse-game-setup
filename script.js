@@ -1,4 +1,4 @@
-const allPlayers = ["Pablo", "Orrin", "Alex", "Tim"]
+const allPlayers = ["Pablo", "Orrin", "Alex", "Tim", "Barney"]
 console.log('i am ${players[0]}')
 
 function shuffleArray(array) {
