@@ -1,4 +1,4 @@
-const allPlayers = ["Pablo", "Orrin", "Alex", "Tim", "Barney"]
+const allPlayers = ["Pablo", "Orrin", "Alex", "Tim"]
 console.log('i am ${players[0]}')
 
 function shuffleArray(array) {
@@ -21,10 +21,10 @@ if (players.includes('Pablo')) {
 
 if (players.length == 4) {
   if (Math.floor(Math.random()*(2-1+1)+1) == 1) {
-    document.querySelector(".image").src="images/playTableFourV1.png";
+    document.querySelector(".image").src="images/playTableFourV1b.png";
     console.log("version 1");
   } else {
-    document.querySelector(".image").src="images/playTableFourV2.png";
+    document.querySelector(".image").src="images/playTableFourV2b.png";
     console.log("mk 2");
   }
 }
