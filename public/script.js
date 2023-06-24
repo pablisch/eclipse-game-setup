@@ -54,8 +54,6 @@ if (players.length == 5) {
   }
 }
 
-
-
 if (players.length < 6) {
   document.querySelector(".six").classList.add("hidden");
 }
