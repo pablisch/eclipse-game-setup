@@ -22,6 +22,13 @@ There is a refresh button to do this automatically.
 
 There is a link to a Layout route but this is currently an exact copy of the Home route.
 
+## Example use
+
+![Example use](public/images/example-use.png)
+
+* Above the players' names are arranged around the table.
+* In this five player example, the void space is indicated between Tim and Orrin.
+
 ## Planned Improvements
 
 Whilst the app works fine and does what it is supposed to do, there are a few changes that I would like to make in the future:
