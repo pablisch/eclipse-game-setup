@@ -2,7 +2,8 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const open = require('opn');
-const port = 3030;
+// Use the environment variable "PORT" or fallback to 3030
+const port = process.env.PORT || 3030;
 
 // Serve static files from the "public" directory
 app.use(express.static(path.join(__dirname, 'public')));
@@ -21,12 +22,9 @@ app.get('/', (req, res) => {
 
 // Start the server
 app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
-  // Open the application in the browser
-  open(`http://localhost:${port}/`);
+  console.log('Server is running');
 });
 
 process.on('SIGINT', () => {
-  server.close();
   process.exit();
 });
